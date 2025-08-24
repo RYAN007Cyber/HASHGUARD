@@ -43,3 +43,28 @@ HASHGUARD is a Blockchain-Integrated Detection and Prevention System (BIDPS) des
    - Start server: `node server.js`
 
 ## 📂 Project Structure
+
+HASHGUARD/
+├── client/         # Frontend (Next.js)
+├── backend/        # Backend (Node.js)
+├── contracts/      # Smart contracts (Solidity)
+├── migrations/     # Deployment scripts
+├── README.md       # Project documentation
+└── .gitignore      # Git exclusions
+
+
+Steps:
+Blockchain Setup
+
+Launch Ganache
+Deploy smart contract (SystemIntegrity.sol) using Truffle or Hardhat
+Connect MetaMask to local blockchain
+
+Run Client
+cd client
+npm install
+npm run dev
+
+Run Backend
+cd backend
+node server.js
